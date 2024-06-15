@@ -1,7 +1,5 @@
 # AI-Powered Developer Relations
 
-This repository contains the code for experiments that demonstrate AI-Powered Developer Relations tools.
-
 The current experiment is a Node.js program that leverages LLM Agents, powered by the LangChain framework, to answer questions about a conference agenda. Below is an example of the program's output when asked to list all the speakers who participate in the full agenda of the NodeTLV conference from their website:
 
 ```bash
