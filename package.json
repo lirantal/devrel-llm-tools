@@ -1,12 +1,24 @@
 {
   "name": "devrel-llm-tools",
   "version": "1.0.0",
-  "description": "",
+  "description": "An experiment for a list of AI-powered tools that can be used by Developer Relations teams to manage their work",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --env-file=.env app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "Apache-2.0"
+  "author": {
+    "name": "Liran Tal",
+    "email": "liran@lirantal.com",
+    "url": "https://lirantal.com"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@langchain/community": "^0.2.11",
+    "@langchain/core": "^0.2.6",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "langchain": "^0.2.5"
+  }
 }
