@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "devrel-llm-tools",
   "version": "1.0.0",
   "description": "An experiment for a list of AI-powered tools that can be used by Developer Relations teams to manage their work",
@@ -24,5 +20,9 @@
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12",
     "langchain": "^0.2.5"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
